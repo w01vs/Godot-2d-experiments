@@ -15,6 +15,14 @@ run/main_scene="res://Scenes/world.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://Assets/icon.svg"
 
+[autoload]
+
+DebugMenu="*res://addons/debug_menu/debug_menu.tscn"
+
 [dotnet]
 
 project/assembly_name="platform1"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/debug_menu/plugin.cfg", "res://addons/script-tabs/plugin.cfg")

@@ -13,6 +13,11 @@ collision_mask = 3
 script = ExtResource("1_go2qr")
 jumps = 1
 
+[node name="DashCooldown" type="Timer" parent="."]
+process_callback = 0
+wait_time = 1.2
+one_shot = true
+
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_h80i5")
 
@@ -22,7 +27,7 @@ scale = Vector2(20.0227, 20)
 mesh = SubResource("SphereMesh_swdty")
 texture = SubResource("ImageTexture_on6nr")
 
-[node name="DashTimer" type="Timer" parent="."]
+[node name="DashSlot" type="Timer" parent="."]
 process_callback = 0
 wait_time = 0.4
 one_shot = true

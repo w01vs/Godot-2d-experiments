@@ -25,7 +25,7 @@ project/assembly_name="platform1"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/debug_menu/plugin.cfg", "res://addons/script-tabs/plugin.cfg")
+enabled=PackedStringArray("res://addons/debug_menu/plugin.cfg", "res://addons/format_on_save/plugin.cfg", "res://addons/script-tabs/plugin.cfg")
 
 [input]
 

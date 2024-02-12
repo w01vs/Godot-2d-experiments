@@ -19,3 +19,8 @@ position = Vector2(-5.36442e-07, 2.11596e-06)
 scale = Vector2(20.0227, 20)
 mesh = SubResource("SphereMesh_swdty")
 texture = SubResource("ImageTexture_on6nr")
+
+[node name="Timer" type="Timer" parent="."]
+process_callback = 0
+wait_time = 0.4
+one_shot = true

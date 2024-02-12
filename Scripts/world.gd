@@ -1,7 +1,7 @@
 extends Node2D
 
 @onready var camera: Camera2D = $Cam
-@onready var player: Player = $Player
+@onready var player: Player = $Player		
 
 func _ready():
 	pass # Replace with function body.
